@@ -48,8 +48,11 @@ Climate-Trend-Analyzer/
 git clone https://github.com/your-username/Climate-Trend-Analyzer.git
 
 cd Climate-Trend-Analyzer
+
 python -m venv climate_env
+
 climate_env\Scripts\activate
+
 pip install -r requirements.txt
 
 
@@ -72,21 +75,22 @@ streamlit run app/streamlit_app.py
 ## Screenshots
 
 Temperature Trend  
-![Trend](outputs/trend.png)
+![Trend](outputs/01_yearly_trend.png)
 
 Rainfall Analysis  
-![Rainfall](outputs/rainfall.png)
+![Rainfall](outputs/02_monthly_rainfall.png)
 
 Anomaly Detection  
-![Anomaly](outputs/anomaly.png)
+![Anomaly](outputs/08_temp_anomalies.png)
+![Anomaly](outputs/09_rainfall_anomalies.png)
 
 Forecast  
-![Forecast](outputs/forecast.png)
+![Forecast](outputs/11_arima_forecast.png)
+![Forecast](outputs/10_temperature_forecast.png)
+
 
 Dashboard  
 ![Dashboard](outputs/ui_p2_1.png)
-![Dashboard](outputs/ui_p2_2.png)
-![Dashboard](outputs/ui_p2_3.png)
 ---
 
 ## 📌 Key Insights
