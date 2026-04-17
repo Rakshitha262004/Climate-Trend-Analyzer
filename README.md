@@ -1,29 +1,28 @@
+
 # 🌍 Climate Trend Analyzer
 
-An end-to-end Data Science project that analyzes long-term climate patterns using temperature, rainfall, and humidity data.  
-The system detects trends, identifies anomalies, and predicts future climate behavior through an interactive dashboard.
+A Data Science project that analyzes long-term climate data (temperature, rainfall, humidity) to identify trends, detect anomalies, and predict future patterns.
 
 ---
 
 ## 🚀 Features
 
-- 📈 Temperature trend analysis using Linear Regression  
-- ⚠️ Anomaly detection using Z-score method  
-- 🌧 Rainfall pattern visualization  
-- 🔮 Future temperature forecasting  
-- 📊 Seasonal decomposition (STL)  
-- 🖥 Interactive dashboard built with Streamlit  
+- Temperature trend analysis using Linear Regression  
+- Anomaly detection using Z-score  
+- Rainfall pattern analysis  
+- Temperature forecasting  
+- Interactive dashboard using Streamlit  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Language:** Python  
-- **Libraries:** Pandas, NumPy  
-- **Visualization:** Matplotlib, Seaborn, Plotly  
-- **Machine Learning:** Scikit-learn  
-- **Time Series:** Statsmodels  
-- **Frontend:** Streamlit  
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn, Plotly  
+- Scikit-learn  
+- Statsmodels  
+- Streamlit  
 
 ---
 
@@ -31,7 +30,6 @@ The system detects trends, identifies anomalies, and predicts future climate beh
 
 
 Climate-Trend-Analyzer/
-│
 ├── data/
 ├── src/
 ├── app/
@@ -44,38 +42,64 @@ Climate-Trend-Analyzer/
 
 ---
 
-## ⚙️ Installation & Setup
+## ⚙️Installation
 
-```bash
+
 git clone https://github.com/your-username/Climate-Trend-Analyzer.git
+
 cd Climate-Trend-Analyzer
 python -m venv climate_env
 climate_env\Scripts\activate
 pip install -r requirements.txt
-▶️ Run the Project
-Run full pipeline
+
+
+---
+
+## ▶️ Run Project
+
+Run full pipeline:
+
 python main.py
-Run Streamlit Dashboard
+
+
+Run dashboard:
+
 streamlit run app/streamlit_app.py
-## 📊 Project Outputs
-📈 Temperature Trend
 
-🌧 Rainfall Analysis
 
-⚠️ Anomaly Detection
+---
 
-🔮 Forecast
+## Screenshots
 
-🖥 Dashboard
+Temperature Trend  
+![Trend](outputs/trend.png)
+
+Rainfall Analysis  
+![Rainfall](outputs/rainfall.png)
+
+Anomaly Detection  
+![Anomaly](outputs/anomaly.png)
+
+Forecast  
+![Forecast](outputs/forecast.png)
+
+Dashboard  
+![Dashboard](outputs/ui_p2_1.png)
+![Dashboard](outputs/ui_p2_2.png)
+![Dashboard](outputs/ui_p2_3.png)
+---
 
 ## 📌 Key Insights
-Detected long-term warming trend in temperature
-Identified extreme anomalies (heatwaves & floods)
-Observed seasonal rainfall distribution
-Predicted future temperature rise
+
+- Temperature shows a gradual increasing trend  
+- Extreme anomalies (heatwaves, floods) detected  
+- Seasonal rainfall patterns observed  
+- Future temperature trends predicted  
+
+---
 
 ## 💡 Future Improvements
-Use real-world datasets (NASA, NOAA)
-Implement ARIMA / LSTM models
-Add map-based visualization
-Deploy as a live web app
+
+- Use real-world datasets  
+- Add advanced models (ARIMA, LSTM)  
+- Deploy as a web application 
